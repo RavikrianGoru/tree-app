@@ -1,0 +1,187 @@
+{
+    "name": "BZID",
+    "url": "https://example.com/root",
+    "data": [
+        "some data1",
+        "some data2",
+        "some data3"
+    ],
+    "children": [
+        {
+            "name": "RIT1",
+            "url": "https://example.com/child2",
+            "data": [
+                "some data1",
+                "some data2",
+                "some data3"
+            ],
+            "children": [
+                {
+                    "name": "RIT2",
+                    "url": "https://example.com/child2",
+                    "data": [
+                        "some data1",
+                        "some data2",
+                        "some data3"
+                    ],
+                    "children": [
+                        {
+                            "name": "RIT1",
+                            "url": "https://example.com/child2",
+                            "data": [
+                                "some data1",
+                                "some data2",
+                                "some data3"
+                            ],
+                            "children": [
+                                {
+                                    "name": "DEV",
+                                    "url": "https://example.com/child2",
+                                    "data": [
+                                        "some data1",
+                                        "some data2",
+                                        "some data3"
+                                    ],
+                                    "children": [
+                                        {
+                                            "name": "Host1-Windows",
+                                            "url": "https://example.com/grandchild1",
+                                            "data": [
+                                                "some data1",
+                                                "some data2",
+                                                "some data3"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "SIT",
+                                    "url": "https://example.com/child1",
+                                    "data": [
+                                        "some data1",
+                                        "some data2",
+                                        "some data3"
+                                    ],
+                                    "children": [
+                                        {
+                                            "name": "Host1-linux",
+                                            "url": "https://example.com/grandchild1",
+                                            "data": [
+                                                "some data1",
+                                                "some data2",
+                                                "some data3"
+                                            ]
+                                        },
+                                        {
+                                            "name": "DB1-MariaDB",
+                                            "url": "https://example.com/grandchild2",
+                                            "data": [
+                                                "some data1",
+                                                "some data2",
+                                                "some data3"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "UAT",
+                                    "url": "https://example.com/child2",
+                                    "data": [
+                                        "some data1",
+                                        "some data2",
+                                        "some data3"
+                                    ],
+                                    "children": [
+                                        {
+                                            "name": "Host1-linux",
+                                            "url": "https://example.com/grandchild1",
+                                            "data": [
+                                                "some data1",
+                                                "some data2",
+                                                "some data3"
+                                            ]
+                                        },
+                                        {
+                                            "name": "DB1-MariaDB",
+                                            "url": "https://example.com/grandchild2",
+                                            "data": [
+                                                "some data1",
+                                                "some data2",
+                                                "some data3"
+                                            ]
+                                        },
+                                        {
+                                            "name": "Host2-linux",
+                                            "url": "https://example.com/grandchild1",
+                                            "data": [
+                                                "some data1",
+                                                "some data2",
+                                                "some data3"
+                                            ]
+                                        },
+                                        {
+                                            "name": "DB2-MariaDB",
+                                            "url": "https://example.com/grandchild2",
+                                            "data": [
+                                                "some data1",
+                                                "some data2",
+                                                "some data3"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "PRD",
+                                    "url": "https://example.com/child2",
+                                    "data": [
+                                        "some data1",
+                                        "some data2",
+                                        "some data3"
+                                    ],
+                                    "children": [
+                                        {
+                                            "name": "Host1-linux",
+                                            "url": "https://example.com/grandchild1",
+                                            "data": [
+                                                "some data1",
+                                                "some data2",
+                                                "some data3"
+                                            ]
+                                        },
+                                        {
+                                            "name": "DB1-MariaDB",
+                                            "url": "https://example.com/grandchild2",
+                                            "data": [
+                                                "some data1",
+                                                "some data2",
+                                                "some data3"
+                                            ]
+                                        },
+                                        {
+                                            "name": "Host2-linux",
+                                            "url": "https://example.com/grandchild1",
+                                            "data": [
+                                                "some data1",
+                                                "some data2",
+                                                "some data3"
+                                            ]
+                                        },
+                                        {
+                                            "name": "DB2-MariaDB",
+                                            "url": "https://example.com/grandchild2",
+                                            "data": [
+                                                "some data1",
+                                                "some data2",
+                                                "some data3"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

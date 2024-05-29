@@ -1,0 +1,13 @@
+Required to install express, cors. run through cmd prompt
+> npm install express
+> npm install cors
+
+Start server to expose Rest API
+> node server.js
+
+Open Browser and hit API: http://localhost:3000/api/treeData
+Open index.html in browser to view the graph by collecting data from Rest API.
+
+
+
+
