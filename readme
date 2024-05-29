@@ -1,6 +1,8 @@
 Required to install express, cors. run through cmd prompt
 > npm install express
 > npm install cors
+> npm install d3@7
+> npm install axios
 
 Start server to expose Rest API
 > node server.js
